@@ -2,32 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Live JS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/940412168c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-
 </head>
-<body>
-    <div id="containner">
-        <h1>Morpion Star Wars</h1>
-        <p>jouer a tour de role avec la meme souris</p>
-        <div id="morpion">
-            <div class="case"></div>
-            <div class="case"></div>
-            <div class="case"></div>
-            <div class="case"></div>
-            <div class="case"></div>
-            <div class="case"></div>
-            <div class="case"></div>
-            <div class="case"></div>
-            <div class="case"></div>
-        </div>
+<body><!--container global  -->
+<div class="container">
+    <h1>morpion star wars</h1>
+
+    <!-- zone de jeu -->
+    <div id="game-area">
+        <!-- chaque case et un zone de jeu -->
+        <div class="case"></div>
+        <div class="case"></div>
+        <div class="case"></div>
+        <div class="case"></div>
+        <div class="case"></div>
+        <div class="case"></div>
+        <div class="case"></div>
+        <div class="case"></div>
+        <div class="case"></div>
     </div>
+    <div id="won"></div>
+</div>
 
 
 
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
